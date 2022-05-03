@@ -1,8 +1,11 @@
+`general`
 Data is from Kaggle: https://www.kaggle.com/competitions/customer-churn-prediction-2020/overview
 
-
+`kmeans_research.ipynb`
 Scaling before PCA: https://stackoverflow.com/questions/37221425/which-feature-scaling-method-to-use-before-pca
 
+`kmeans+svm.ipynb`
+https://datascience.stackexchange.com/questions/24324/how-to-use-k-means-outputs-extracted-features-as-svm-inputs
 
 
 
