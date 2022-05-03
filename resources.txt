@@ -1,6 +1,8 @@
 Data is from Kaggle: https://www.kaggle.com/competitions/customer-churn-prediction-2020/overview
 
 
+Scaling before PCA: https://stackoverflow.com/questions/37221425/which-feature-scaling-method-to-use-before-pca
+
 
 
 
