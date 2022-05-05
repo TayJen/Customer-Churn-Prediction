@@ -7,6 +7,9 @@ Scaling before PCA: https://stackoverflow.com/questions/37221425/which-feature-s
 `kmeans+svm.ipynb`
 https://datascience.stackexchange.com/questions/24324/how-to-use-k-means-outputs-extracted-features-as-svm-inputs
 
+`kmeans+svm+undersample.ipynb`
+https://towardsdatascience.com/having-an-imbalanced-dataset-here-is-how-you-can-solve-it-1640568947eb
+
 
 
 
