@@ -12,23 +12,23 @@ def data_preprocessing(df):
         Input: clean DataFrame
         Output: preprocessed DataFrame
     '''
-    
+
     bin_columns = ['international_plan', 'voice_mail_plan', 'churn']
     for col in bin_columns:
         df[col] = df[col].map({'yes': 1, 'no': 0})
-        
+
     feature_types = ['minutes', 'calls', 'charge']
 
     for feature in feature_types:
         df['total_' + feature] = df['total_day_' + feature] + df['total_eve_' + feature] + df['total_night_' + feature]
         df.drop(['total_day_' + feature, 'total_eve_' + feature, 'total_night_' + feature], axis=1, inplace=True)
-        
-    top5_states = df[df['churn'] == 1]['state']\
-                    .value_counts()\
-                    .sort_values(ascending=False)[:5]\
-                    .index.values
-                    
+
+    top5_states = df[df['churn'] == 1]['state'] \
+        .value_counts() \
+        .sort_values(ascending=False)[:5] \
+        .index.values
+
     df['state'] = df['state'].apply(lambda x: x if x in top5_states else 'other')
     df = pd.get_dummies(df, columns=['area_code', 'state'])
-    
+
     return df
