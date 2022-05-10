@@ -1,18 +1,26 @@
+from sklearn.preprocessing import StandardScaler, Normalizer
 import pandas as pd
 import numpy as np
 
 
-def data_preprocessing(df):
-    '''
-        This function transforms df:
-            - Yes/no features such as `international_plan`, `voice_mail_plan` and `churn` are transformed into 1/0
-            - day/eve/night features are summed up into one new `total` feature
-            - in `state` feature only top 5 churn states are saved, other are labeled as `other`
-            - one-hot-encoding for `state` and `area_code`
-        Input: clean DataFrame
-        Output: preprocessed DataFrame
-    '''
+class DataPreprocessingPipeline:
+    def __init__(self):
+        self.scaler = StandardScaler()
+        self.norm = Normalizer()
 
+    def fit(self, X, y=None):
+        self.scaler.fit(X)
+        self.norm.fit(X)
+
+        return self
+
+    def transform(self, X, y=None):
+        X = self.scaler.transform(X)
+        X = self.norm.transform(X)
+
+        return X
+
+def convert_data(df):
     bin_columns = ['international_plan', 'voice_mail_plan', 'churn']
     for col in bin_columns:
         df[col] = df[col].map({'yes': 1, 'no': 0})
