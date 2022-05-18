@@ -15,3 +15,16 @@ https://imbalanced-learn.org/stable/
 With permutation for better generalization:
 https://stackoverflow.com/questions/54730276/how-to-randomly-split-a-dataframe-into-several-smaller-dataframes
 
+
+UNDERSample, OVERSample:
+General: https://towardsdatascience.com/stop-using-smote-to-handle-all-your-imbalanced-data-34403399d3be
+https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
+7 OverSample techniques: https://towardsdatascience.com/7-over-sampling-techniques-to-handle-imbalanced-data-ec51c8db349f
+
+SHAP Feature Selection:
+https://medium.com/ing-blog/open-sourcing-shaprfecv-improved-feature-selection-powered-by-shap-994fe7861560
+https://shap.readthedocs.io/en/latest/example_notebooks/tabular_examples/linear_models/Sentiment%20Analysis%20with%20Logistic%20Regression.html
+
+
+HYPERParams Tuning:
+https://towardsdatascience.com/tuning-the-hyperparameters-of-your-machine-learning-model-using-gridsearchcv-7fc2bb76ff27

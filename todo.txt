@@ -1,0 +1,14 @@
+Near:
+- Check the kmeans+svm+smote model for overfitting
+- Try other oversampling techniques (first read everything in three last articles)
+- Read oversampling and why SMOTE is bad, how to interpret it, and about other sampling techniques
+- Finish SHAP for kmeans-svm-smote
+- Perform feature selection based on SHAP conclusions
+- Try logistic regression with best sampling technique
+
+Far:
+- Try other models such as KNNeighboursClassifier, RandomForestClassifier, XGB, Lightgbm, Catboost?
+- Clean the code
+- Put everything into Docker
+- Deal with dependencies (why tf is there PyQt5 in requirements?)
+
