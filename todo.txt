@@ -1,10 +1,16 @@
+Done:
+    - Check the kmeans+svm+smote model for overfitting
+        Answer: There are no overfitting, in order to verify additional test split was made
+    - Finish SHAP for kmeans-svm-smote
+        Answer: There are different issues with using SHAP with SVM, so we will catch it later
+    - Try other oversampling techniques (first read everything in three last articles)
+        Answer: 
+    - Try logistic regression with best sampling technique
+
+
 Near:
-- Check the kmeans+svm+smote model for overfitting
-- Try other oversampling techniques (first read everything in three last articles)
 - Read oversampling and why SMOTE is bad, how to interpret it, and about other sampling techniques
-- Finish SHAP for kmeans-svm-smote
 - Perform feature selection based on SHAP conclusions
-- Try logistic regression with best sampling technique
 
 Far:
 - Try other models such as KNNeighboursClassifier, RandomForestClassifier, XGB, Lightgbm, Catboost?
