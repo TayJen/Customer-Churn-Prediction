@@ -11,6 +11,7 @@ Done:
 Near:
 - Read oversampling and why SMOTE is bad, how to interpret it, and about other sampling techniques
 - Perform feature selection based on SHAP conclusions
+- Try different feature selection techniques
 
 Far:
 - Try other models such as KNNeighboursClassifier, RandomForestClassifier, XGB, Lightgbm, Catboost?
