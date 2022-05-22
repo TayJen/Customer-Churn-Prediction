@@ -7,6 +7,10 @@ Done:
         Answer: 
     - Try logistic regression with best sampling technique
 
+Read and try:
+    - AutoML & MLFlow (https://towardsai.net/p/l/automate-machine-learning-using-databricks-automl)
+    
+
 
 Near:
 - Read oversampling and why SMOTE is bad, how to interpret it, and about other sampling techniques
