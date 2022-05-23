@@ -6,20 +6,14 @@ Done:
     - Try other oversampling techniques (first read everything in three last articles)
         Answer: 
     - Try logistic regression with best sampling technique
+    -- MLFlow
 
 Read and try:
-    - AutoML & MLFlow (https://towardsai.net/p/l/automate-machine-learning-using-databricks-automl)
-    
-
-
-Near:
-- Read oversampling and why SMOTE is bad, how to interpret it, and about other sampling techniques
-- Perform feature selection based on SHAP conclusions
-- Try different feature selection techniques
-
-Far:
-- Try other models such as KNNeighboursClassifier, RandomForestClassifier, XGB, Lightgbm, Catboost?
-- Clean the code
-- Put everything into Docker
-- Deal with dependencies (why tf is there PyQt5 in requirements?)
+    - Hyperparameter tuning (with MLFLOW?)
+    - Feature selection based on SHAP conclusions
+    - Different feature selection techniques
+    - Other models such as Lightgbm, Catboost?
+    - Cleaning the code
+    - Putting everything into Docker
+    - Dealling with dependencies (why tf is there PyQt5 in requirements?)
 
