@@ -3,23 +3,6 @@ import pandas as pd
 import numpy as np
 
 
-class DataPreprocessingPipeline:
-    def __init__(self):
-        self.scaler = StandardScaler()
-        self.norm = Normalizer()
-
-    def fit(self, X, y=None):
-        self.scaler.fit(X)
-        self.norm.fit(X)
-
-        return self
-
-    def transform(self, X, y=None):
-        X = self.scaler.transform(X)
-        X = self.norm.transform(X)
-
-        return X
-
 def convert_data(df):
     # Remove outliers (less than 10 vmail messages and more than 50)
     mask_vm_true = (df.voice_mail_plan == 'yes')
@@ -52,5 +35,39 @@ def convert_data(df):
     # Keep Top 5 and label others as Other
     df['state'] = df['state'].apply(lambda x: x if x in top5_states else 'other')
     df = pd.get_dummies(df, columns=['area_code', 'state'])
+
+    return df
+
+
+def engineer_features(df):
+    # Generate features of average month charge/minutes/calls.
+    features = ['minutes', 'calls', 'charge']
+    for feature in features:
+        df['avg_mt_' + feature] = df['total_' + feature] / df['account_length']
+
+    # Same for average call, how much does it cost, how long is it (in minutes)
+    df['avg_call_charge'] = df['total_charge'] / df['total_calls']
+    df['avg_intl_call_charge'] = df['total_intl_charge'] / df['total_intl_calls']
+
+    df['avg_call_minutes'] = df['total_minutes'] / df['total_calls']
+    df['avg_intl_call_minutes'] = df['total_intl_minutes'] / df['total_intl_calls']
+
+    # New feature as intersection of international plan and voice_mail plan
+    df['both_plans'] = df['international_plan'] & df['voice_mail_plan']
+
+    # Fill NaNs
+    df.fillna(0, inplace=True)
+
+    return df
+
+
+def select_features(df):
+    # Drop strongly correlated features (threshold = 0.8)
+    df.drop(['total_intl_charge', 'total_charge', 'avg_mt_minutes', 'avg_mt_calls',
+             'avg_call_minutes', 'avg_intl_call_minutes', 'voice_mail_plan'], axis=1, inplace=True)
+
+    # Drop `state` as this feature has low impact
+    df.drop(['state_WV', 'state_NJ', 'state_MN',
+             'state_MD', 'state_TX'], axis=1, inplace=True)
 
     return df
