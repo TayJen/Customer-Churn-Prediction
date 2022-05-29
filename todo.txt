@@ -7,13 +7,18 @@ Done:
         Answer: 
     - Try logistic regression with best sampling technique
     -- MLFlow
+    - Different feature selection techniques
+    - Feature selection based on SHAP conclusions
+
+More details:
+    - Read about Catboost
+    - Read about Lightgbm (what's the difference between other gbms?)
+    - Create different experiment for different gbm models amd compare them (XGB, Lightgbm, Catboost)
+    - Try to tune all of them and compare results using MLFLOW
 
 Read and try:
     - Hyperparameter tuning (with MLFLOW?)
-    - Feature selection based on SHAP conclusions
-    - Different feature selection techniques
     - Other models such as Lightgbm, Catboost?
-    - Cleaning the code
     - Putting everything into Docker
     - Dealling with dependencies (why tf is there PyQt5 in requirements?)
 
