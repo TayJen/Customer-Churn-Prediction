@@ -21,6 +21,9 @@ General: https://towardsdatascience.com/stop-using-smote-to-handle-all-your-imba
 https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
 7 OverSample techniques: https://towardsdatascience.com/7-over-sampling-techniques-to-handle-imbalanced-data-ec51c8db349f
 
+Feature Selection:
+https://towardsdatascience.com/feature-selection-a-comprehensive-list-of-strategies-3fecdf802b79
+
 SHAP Feature Selection:
 https://medium.com/ing-blog/open-sourcing-shaprfecv-improved-feature-selection-powered-by-shap-994fe7861560
 https://shap.readthedocs.io/en/latest/example_notebooks/tabular_examples/linear_models/Sentiment%20Analysis%20with%20Logistic%20Regression.html
