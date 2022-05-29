@@ -9,6 +9,8 @@ Done:
     -- MLFlow
     - Different feature selection techniques
     - Feature selection based on SHAP conclusions
+    - Dealing with dependencies (`pipreqs` and `pipreqsnb` helped me, also it is important to have full path without spaces,
+        it will help you a lot in the future)
 
 More details:
     - Read about Catboost
@@ -20,5 +22,4 @@ Read and try:
     - Hyperparameter tuning (with MLFLOW?)
     - Other models such as Lightgbm, Catboost?
     - Putting everything into Docker
-    - Dealling with dependencies (why tf is there PyQt5 in requirements?)
 
