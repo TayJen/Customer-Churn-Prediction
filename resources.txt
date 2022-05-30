@@ -31,3 +31,9 @@ https://shap.readthedocs.io/en/latest/example_notebooks/tabular_examples/linear_
 
 HYPERParams Tuning:
 https://towardsdatascience.com/tuning-the-hyperparameters-of-your-machine-learning-model-using-gridsearchcv-7fc2bb76ff27
+
+Hyperparameter tuning:
+https://bradleyboehmke.github.io/xgboost_databricks_tuning/index.html#slide1 (hyperopt + xgb)
+https://databricks.com/notebooks/churn/4-hyperparameter-tuning.html
+
+
