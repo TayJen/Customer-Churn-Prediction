@@ -36,4 +36,7 @@ Hyperparameter tuning:
 https://bradleyboehmke.github.io/xgboost_databricks_tuning/index.html#slide1 (hyperopt + xgb)
 https://databricks.com/notebooks/churn/4-hyperparameter-tuning.html
 
+Catboost vs XGBoost vs LightGBM:
+https://towardsdatascience.com/catboost-vs-lightgbm-vs-xgboost-c80f40662924
+https://towardsdatascience.com/an-example-of-hyperparameter-optimization-on-xgboost-lightgbm-and-catboost-using-hyperopt-12bc41a271e
 
