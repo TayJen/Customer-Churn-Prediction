@@ -11,10 +11,12 @@ Done:
     - Feature selection based on SHAP conclusions
     - Dealing with dependencies (`pipreqs` and `pipreqsnb` helped me, also it is important to have full path without spaces,
         it will help you a lot in the future)
+    - Read about Catboost
 
 More details:
-    - Read about Catboost
     - Read about Lightgbm (what's the difference between other gbms?)
+    - Update search space for LightGBM (read about it in resources.txt)
+    - Create experiments with LightGBM
     - Create different experiment for different gbm models amd compare them (XGB, Lightgbm, Catboost)
     - Try to tune all of them and compare results using MLFLOW
 

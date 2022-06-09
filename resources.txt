@@ -35,8 +35,13 @@ https://towardsdatascience.com/tuning-the-hyperparameters-of-your-machine-learni
 Hyperparameter tuning:
 https://bradleyboehmke.github.io/xgboost_databricks_tuning/index.html#slide1 (hyperopt + xgb)
 https://databricks.com/notebooks/churn/4-hyperparameter-tuning.html
+https://www.kaggle.com/code/eikedehling/tune-and-compare-xgb-lightgbm-rf-with-hyperopt/notebook
 
 Catboost vs XGBoost vs LightGBM:
 https://towardsdatascience.com/catboost-vs-lightgbm-vs-xgboost-c80f40662924
 https://towardsdatascience.com/an-example-of-hyperparameter-optimization-on-xgboost-lightgbm-and-catboost-using-hyperopt-12bc41a271e
 
+LightGBM:
+https://lightgbm.readthedocs.io/en/latest/Parameters.html
+https://github.com/microsoft/LightGBM/blob/master/examples/python-guide/simple_example.py
+https://lightgbm.readthedocs.io/en/latest/Parameters-Tuning.html
