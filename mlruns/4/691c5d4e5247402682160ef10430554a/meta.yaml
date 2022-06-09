@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML/ml_projects/customer-churn_prediction/mlruns/4/691c5d4e5247402682160ef10430554a/artifacts
+end_time: 1654765589249
+entry_point_name: ''
+experiment_id: '4'
+lifecycle_stage: active
+name: ''
+run_id: 691c5d4e5247402682160ef10430554a
+run_uuid: 691c5d4e5247402682160ef10430554a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1654765563638
+status: 3
+tags: []
+user_id: hello
