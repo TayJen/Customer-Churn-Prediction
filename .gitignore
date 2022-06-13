@@ -9,6 +9,9 @@ __pycache__/
 # CatBoost information
 catboost_info/
 
+# Data
+featured_data/
+
 # MlFLOW Runs tracking
 mlruns/
 
