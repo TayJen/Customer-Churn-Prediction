@@ -1,0 +1,18 @@
+{
+  "account_length": 2,
+  "international_plan": 28,
+  "number_vmail_messages": 8,
+  "total_intl_minutes": 35,
+  "total_intl_calls": 6,
+  "number_customer_service_calls": 24,
+  "total_minutes": 11,
+  "total_calls": 17,
+  "area_code_area_code_408": 3,
+  "area_code_area_code_415": 9,
+  "area_code_area_code_510": 6,
+  "state_other": 22,
+  "avg_mt_charge": 11,
+  "avg_call_charge": 21,
+  "avg_intl_call_charge": 31,
+  "both_plans": 0
+}

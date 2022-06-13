@@ -1,0 +1,18 @@
+{
+  "account_length": 687.1415300119552,
+  "international_plan": 431.32823437731713,
+  "number_vmail_messages": 1023.7065848165075,
+  "total_intl_minutes": 1784.6945771888822,
+  "total_intl_calls": 271.64476173289586,
+  "number_customer_service_calls": 2430.9939121061325,
+  "total_minutes": 2748.2312104523153,
+  "total_calls": 2305.107128773958,
+  "area_code_area_code_408": 1234.6810720711946,
+  "area_code_area_code_415": 1540.7149362061173,
+  "area_code_area_code_510": 1094.5267831534147,
+  "state_other": 699.1132977856323,
+  "avg_mt_charge": 849.2520678854198,
+  "avg_call_charge": 4602.1384495477405,
+  "avg_intl_call_charge": 1368.0249743726163,
+  "both_plans": 31.595489784143865
+}

@@ -1,0 +1,27 @@
+artifact_path: model
+flavors:
+  lightgbm:
+    code: null
+    data: model.lgb
+    lgb_version: 3.3.2
+    model_class: lightgbm.basic.Booster
+  python_function:
+    data: model.lgb
+    env: conda.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.10.0
+mlflow_version: 1.26.0
+model_uuid: 421eb049bd7040c8bf2b8e5c7de3f67a
+run_id: 1c8cb30bc36144c1b7d9870b9be8bdd9
+signature:
+  inputs: '[{"name": "account_length", "type": "long"}, {"name": "international_plan",
+    "type": "long"}, {"name": "number_vmail_messages", "type": "long"}, {"name": "total_intl_minutes",
+    "type": "double"}, {"name": "total_intl_calls", "type": "long"}, {"name": "number_customer_service_calls",
+    "type": "long"}, {"name": "total_minutes", "type": "double"}, {"name": "total_calls",
+    "type": "long"}, {"name": "area_code_area_code_408", "type": "integer"}, {"name":
+    "area_code_area_code_415", "type": "integer"}, {"name": "area_code_area_code_510",
+    "type": "integer"}, {"name": "state_other", "type": "integer"}, {"name": "avg_mt_charge",
+    "type": "double"}, {"name": "avg_call_charge", "type": "double"}, {"name": "avg_intl_call_charge",
+    "type": "double"}, {"name": "both_plans", "type": "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+utc_time_created: '2022-06-13 13:34:26.332089'
