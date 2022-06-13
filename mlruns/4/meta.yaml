@@ -1,4 +1,0 @@
-artifact_location: file:///D:/ML/ml_projects/customer-churn_prediction/mlruns/4
-experiment_id: '4'
-lifecycle_stage: active
-name: CatBoost-params

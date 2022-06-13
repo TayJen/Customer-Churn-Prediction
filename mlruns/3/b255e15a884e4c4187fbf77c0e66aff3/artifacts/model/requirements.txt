@@ -1,6 +1,0 @@
-mlflow
-mypy-extensions==0.4.3
-pandas==1.4.2
-scikit-learn==1.1.0
-typing-extensions==4.1.1
-xgboost==1.5.2

@@ -1,2 +1,0 @@
-mlflow
-lightgbm==3.3.2
