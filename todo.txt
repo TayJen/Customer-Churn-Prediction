@@ -7,21 +7,19 @@ Done:
         Answer: 
     - Try logistic regression with best sampling technique
     -- MLFlow
+    - Create different experiment for different gbm models amd compare them (XGB, Lightgbm, Catboost)
     - Different feature selection techniques
     - Feature selection based on SHAP conclusions
     - Dealing with dependencies (`pipreqs` and `pipreqsnb` helped me, also it is important to have full path without spaces,
         it will help you a lot in the future)
     - Read about Catboost
-
-More details:
     - Read about Lightgbm (what's the difference between other gbms?)
     - Update search space for LightGBM (read about it in resources.txt)
     - Create experiments with LightGBM
-    - Create different experiment for different gbm models amd compare them (XGB, Lightgbm, Catboost)
     - Try to tune all of them and compare results using MLFLOW
 
-Read and try:
-    - Hyperparameter tuning (with MLFLOW?)
-    - Other models such as Lightgbm, Catboost?
-    - Putting everything into Docker
-
+To Do:
+    - Create beautiful Readme
+    - By comparing results of all the gbm tuned models, select one and submit to kaggle
+    - Try to integrate everything you've done to readme, including mlflow tracking
+    - Update requirements.txt
