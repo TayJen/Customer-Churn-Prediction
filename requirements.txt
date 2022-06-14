@@ -1,8 +1,11 @@
+catboost==1.0.6
+hyperopt==0.2.7
 imbalanced_learn==0.9.1
 imblearn==0.0
+lightgbm==3.3.2
 matplotlib==3.5.1
 mlflow==1.26.0
-numpy==1.21.6
+numpy==1.22.4
 pandas==1.4.2
 scikit_learn==1.1.1
 seaborn==0.11.2
