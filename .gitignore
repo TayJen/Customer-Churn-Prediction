@@ -15,6 +15,10 @@ featured_data/
 # MlFLOW Runs tracking
 mlruns/
 
+# Submissions and models
+models/
+Submissions/
+
 # Distribution / packaging
 .Python
 build/
