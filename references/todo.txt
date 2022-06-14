@@ -17,9 +17,11 @@ Done:
     - Update search space for LightGBM (read about it in resources.txt)
     - Create experiments with LightGBM
     - Try to tune all of them and compare results using MLFLOW
+    - By comparing results of all the gbm tuned models, select one and submit to kaggle
+    - Update requirements.txt
+     (for future projects: `pipreqsnb --encoding=utf8 D:\ML\ml_projects\customer-churn_prediction`)
+
 
 To Do:
     - Create beautiful Readme
-    - By comparing results of all the gbm tuned models, select one and submit to kaggle
     - Try to integrate everything you've done to readme, including mlflow tracking
-    - Update requirements.txt
