@@ -45,3 +45,7 @@ LightGBM:
 https://lightgbm.readthedocs.io/en/latest/Parameters.html
 https://github.com/microsoft/LightGBM/blob/master/examples/python-guide/simple_example.py
 https://lightgbm.readthedocs.io/en/latest/Parameters-Tuning.html
+
+ReadMe:
+https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project
+https://medium.com/@sagarganiga468/how-to-create-a-stunning-readme-md-edf1c74b6a46

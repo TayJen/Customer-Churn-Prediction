@@ -23,5 +23,5 @@ Done:
 
 
 To Do:
-    - Create beautiful Readme
+    - Create beautiful Readme (check resources.txt)
     - Try to integrate everything you've done to readme, including mlflow tracking
