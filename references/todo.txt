@@ -1,6 +1,7 @@
 Done:
+    - EDA
     - Check the kmeans+svm+smote model for overfitting
-        Answer: There are no overfitting, in order to verify additional test split was made
+        Answer: There is no overfitting, in order to verify additional test split was made
     - Finish SHAP for kmeans-svm-smote
         Answer: There are different issues with using SHAP with SVM, so we will catch it later
     - Try other oversampling techniques (first read everything in three last articles)
