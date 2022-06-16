@@ -68,5 +68,10 @@ For simplicity, brief information on each Python file and each Notebook is given
 | [XGB Tuning](tuning/xgb_hyperparameters.ipynb) | Tuning of xgb model, with the help of hyperopt for parameters and MLFlow for tracking |
 | [CatBoost Tuning](tuning/catboost_hyperparams.ipynb) | Tuning of catboost model |
 | [LightGBM Tuning](tuning/lightgbm_hyperparams.ipynb) | Tuning of lightgbm model |
-| [Train](train.py) | Final script for XGB model training (a little spoiler) |
+| [Train](train.py) | Final script for XGB model training and saving |
 | [Model Inference](inference.py) | Final script for test data prediction (and save to `submission.csv` for _Kaggle_) |
+
+## Results
+A lot of different models and different methods as well as frameworks were tried and used. The final score, **accuracy**, on Kaggle Platform is _0.88_ both for public and private leaderboards.
+
+To sum up, having such a result in real life, the company will save itself a lot of money by using the developed model.
