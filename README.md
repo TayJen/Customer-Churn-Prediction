@@ -50,9 +50,23 @@ The training dataset contains 4250 samples. Each sample contains 19 features and
 * HyperOpt
 
 ## Notebooks & Python Scripts
+For simplicity, brief information on each Python file and each Notebook is given in the table below. For more complete information, you can look into them. The order is kept as it was developed and tried.
+
 | Notebook | Description |
 | -------- | ----------- |
 | [Research](research.ipynb) | First notebook with EDA and Data Visualisation |
 | [Preprocessing](preprocessing.py) | Python script with functions for Data Handling |
 | [Feature Engineering](data_notebooks/feature_engineering.ipynb) | Notebook with experiments for feature engineering (all necessary engineering techniques were included in `preprocessing.py`) |
 | [KMeans Research](clustering_approach/kmeans_research.ipynb) | Notebook with first clustering approach (fails) |
+| [KMeans + SVM](clustering_approach/kmeans+svm.ipynb) | Cluster as a feature + Support Vector Machine Classifier (no handling with imbalance) |
+| [Undersample + KMeans + SVM](clustering_approach/kmeans+svm+undersample.ipynb) | Undersampling technique + everything else as in above notebook |
+| [SMOTE + KMeans + SVM](clustering_approach/kmeans+svm+smote.ipynb) | Oversampling and Undersampling techniques (SMOTE, SMOTETomek, SMOTEENN) |
+| [Logistic Regression](model_notebooks/log_regression.ipynb) | SMOTE, SMOTEENN and no handling with imbalance with basic Logistic regression |
+| [SkLearn Models + XGB](model_notebooks/sk-models.ipynb) | Different basic models and XGB were tried on SMOTEENN & SMOTE data (best so far is XGB with SMOTEENN) |
+| [AutoSkLearn](model_notebooks/AUTO_SkLearn.ipynb) | Auto SkLearn implementation (works only in Google Colab) |
+| [Feature Selection](data_notebooks/feature-selection.ipynb) | Notebook with different feature selection techniques (final selection function was included in `preprocessing.py`) |
+| [XGB Tuning](tuning/xgb_hyperparameters.ipynb) | Tuning of xgb model, with the help of hyperopt for parameters and MLFlow for tracking |
+| [CatBoost Tuning](tuning/catboost_hyperparams.ipynb) | Tuning of catboost model |
+| [LightGBM Tuning](tuning/lightgbm_hyperparams.ipynb) | Tuning of lightgbm model |
+| [Train](train.py) | Final script for XGB model training (a little spoiler) |
+| [Model Inference](inference.py) | Final script for test data prediction (and save to `submission.csv` for _Kaggle_) |
