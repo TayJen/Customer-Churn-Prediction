@@ -72,6 +72,6 @@ For simplicity, brief information on each Python file and each Notebook is given
 | [Model Inference](inference.py) | Final script for test data prediction (and save to `submission.csv` for _Kaggle_) |
 
 ## Results
-A lot of different models and different methods as well as frameworks were tried and used. The final score, **accuracy**, on Kaggle Platform is _0.88_ both for public and private leaderboards.
+A lot of different models, methods, as well as frameworks were tried and used. The final score, **accuracy**, on Kaggle Platform is _0.88_ both for public and private leaderboards.
 
 To sum up, having such a result in real life, the company will save itself a lot of money by using the developed model.
